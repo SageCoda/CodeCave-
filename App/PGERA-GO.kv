@@ -1,0 +1,24 @@
+import kivy
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.label import Label
+from kivy.uix.button import Button
+
+class PGERAGOApp(App):
+    def build(self):
+        layout = BoxLayout(orientation='vertical')
+        
+        label = Label(text="Welcome to PGERA-GO!")
+        layout.add_widget(label)
+        
+        request_button = Button(text="Request a Ride")
+        request_button.bind(on_press=self.request_ride)
+        layout.add_widget(request_button)
+        
+        return layout
+    
+    def request_ride(self, instance):
+        print("Ride requested!")
+
+if __name__ == '__main__':
+    PGERAGOApp().run()

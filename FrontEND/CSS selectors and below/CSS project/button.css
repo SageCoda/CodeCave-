@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(1, 1, 17);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    background: none;
+    border: 2px solid orange; 
+    background-color: rgb(1, 1, 17); 
+    color: orange;
+    padding: 1em 2em;
+    font-size: 1em;
+    
+}
+button:hover{
+    border: 3px solid rgb(187, 255, 0); 
+    color:  rgb(242, 245, 233);
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    transition: color 0.4s,border-color 0.4s, border-color 0.4s,transform 0.4s;
+    cursor:pointer;
+}

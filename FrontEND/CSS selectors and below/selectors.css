@@ -1,0 +1,30 @@
+/*{color: rgb(10, 10, 255);}*/
+
+
+button{font-size: large;background-color:#94d9db ;  }
+/* nav button:hover{color:#E63946;} */
+button[type="submit"]:hover{color: blueviolet;
+font-size: 22px;
+}
+#login{font-size:22px;color: red;}
+body{background-color: #F1FAEE;}
+h1,h2{color:#1D3557;border-bottom: 1px solid rgb(226, 217, 217);}
+h1{width: fit-content;border-bottom: 1px solid rgb(226, 217,217);/* box-sizing: border-box; */}
+/*id selectors */ 
+#signup{background-color:#1D3557 ;color: #F1FAEE;
+font: size 22px;;}
+span{color: #1494e4;}
+/*class selectors */ 
+.tag{background-color:#E63946;color: #F1FAEE;font-size: 17px;}
+/*descendant selector*/
+footer a{color: rgb(248, 5, 5);}
+/*adjacent selectors */ 
+h2+button{font-size: 20px;}
+/*Direct Descendant selectors */ 
+footer > a{color: rgb(35, 73, 73);}
+/*Attribute Selectors*/
+input[type="password"]{ color:#089bf7;} 
+
+
+
+
